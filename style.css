@@ -1,0 +1,269 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-color: #ff9;
+    height: 80px;
+}
+
+/* pour centrer le tour */
+.contour{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Mettre en ligne  */
+header nav ul li{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 100%;
+    text-transform: uppercase;
+}
+
+.img{
+    margin-top: 5px;
+    float: left;
+}
+
+.btn{
+    float: right;
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #ca7334;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100%;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 40px;
+    margin-left: 100px;
+    margin-top: -35px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background: #538a95;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.form_block{
+    width: 200px;
+    margin: 0 100px
+}
+
+.form_title{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100px;
+    color: #ca7334;
+}
+
+
+.form_label{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form_input{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #ca7334;
+    outline: 0;
+    transition: all 0.3s ease-in-out;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.form_input:focus{
+    border-color: #02b8dd;
+}
+
+.form_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.form_btn{
+    width: 150px;
+    height: 50px;
+    background: #ca7334;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 100%;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: -35px;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.form_btn:hover{
+    background: #538a95;
+}
+
+.card-text{
+    margin-top: 80px;
+    background: #1e1e1e;
+    border-radius: 10px 0px 0px 10px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.img-text{
+    margin-top: 80px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#texte{
+    color: #fff;
+    margin: 50px 0 5px 50px;
+    font-size: 45px;
+}
+
+.texte{
+    margin-left: 50px;
+    color: #ca7334;
+    margin-bottom: 100px;
+}
+
+#texte3{
+    margin-left: 50px;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 70px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.texte2{
+    margin-left: 50px;
+    color: #ca7334;
+}
+
+.texte1{
+    margin-left: 50px;
+    color: #fff;
+}
+
+.card-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn3{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    background: #1e1e1e;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+a{
+    text-decoration: none;  
+    color: #fff;
+}
+
+.btn3:hover{
+    background: #538a95;
+}
+
+.card-footer{
+    width: 100%;
+    height: 350px;
+    background-color: #ca7334;
+}
+
+h2{
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+th{
+    margin-right: 20px;
+}
+
+.list{
+    margin: 40px auto;
+}
+
+.form_file{
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #ca7334;
+}
+
+.titre1{
+    font-size: 60px;
+    color: #ca7334;
+}
+
+.titre1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.img2{
+    margin-top: 200px;
+}
+
+td img{
+    border-radius: 50%;
+}
+
+
+
+
+

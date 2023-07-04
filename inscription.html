@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="inscrisption.js" defer></script>
+    <title>Orange Digital Kalanso</title>
+</head>
+<body>
+    <header>
+        <div class="contour">
+            <nav>
+                <a href="index.php"><img class="img" src="img/1.png" alt="logo" width="90px" height="70px"></a>
+                <ul>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="liste.php">Liste</a></li>
+                    <li></li>
+                </ul>
+                <a class="btn" href="login.html">Connexion</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="contour">
+            <div class="form_title">Enregistrer</div>
+            <div class="form">
+                <form class="form_inner" action="inscrire.php" method="POST" enctype="multipart/form-data">
+                    <div class="form_line">
+                        <!-- <div class="form_block">
+                            <h4 class="form_label">Matricule</h4>
+                            <input class="form_input" type="text" name="matricule">
+                        </div> -->
+                        <div class="form_block">
+                            <h4 class="form_label">Nom</h4>
+                            <input class="form_input" id="nom" type="text" name="nom" required>
+                        </div>
+                        <div class="form_block">
+                            <h4 class="form_label">Annee de certification</h4>
+                            <input class="form_input" id="annee" type="text" name="annee" required>
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <div class="form_block">
+                            <h4 class="form_label">prenom</h4>
+                            <input class="form_input" id="prenom" type="text" name="prenom" required>
+                        </div>
+                        <div class="form_block">
+                            <h4 class="form_label">Age</h4>
+                            <input class="form_input" id="age" type="text" name="age" required>
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <div class="form_block">
+                            <h4 class="form_label">Date de naissance</h4>
+                            <input class="form_input" id="dateNaissance" type="text" name="dateNaissance" required>
+                        </div>
+                        <div class="form_block">
+                            <h4 class="form_label">Adresse email</h4>
+                            <input class="form_input" id="email" type="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <div class="form_block">
+                            <h4 class="form_label">Numero de telephone</h4>
+                            <input class="form_input" id="telephone" type="text" name="telephone" required>
+                        </div>
+                        <div class="form_block">
+                            <h4 class="form_label">Promotion</h4>
+                            <input class="form_input" id="promotion" type="text" name="promotion" required>
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <!-- <div class="form_block">
+                            <h4 class="form_label">Annee de certification</h4>
+                            <input class="form_input" type="text" name="annee">
+                        </div> -->
+                        <div class="form_block">
+                            <h4 class="form_label">Photo</h4>
+                            <input class="form_file" id="photo" type="file" name="photo">
+                        </div>
+                    </div>
+                    <input type="submit" class="form_btn" value="Ajouter" name="ajouter">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contour">
+        </div>
+    </section>
+
+</body>
+</html>
